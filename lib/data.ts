@@ -6,6 +6,9 @@ import NestNexusImg from '../public/NestNexusImg.jpg' ;
 import NikeImg from '../public/NikeImg.jpg' ;
 import MessPortalImg from '../public/MessPortal.png' ;
 import TwitterImg from '../public/TwitterImg.png' ;
+import { StaticImageData } from "next/image";
+
+
 
 export const links= [
     {
@@ -49,48 +52,45 @@ export const experiencesData =[
         date:"Dec'22 to Feb'23" 
     },
 ] as const ;
-export const projectsData = [
+
+
+
+export const projectsData =[
     {
         title: "MessPortal - NIT SRINAGAR",
         description: "Developed a dynamic mess management system with React.js and Node.js, enhancing communication, transparency, and efficiency with interactive features and secure authentication.",
-        tags:["React.js", "Node.js", "MongoDb", "TailwindCSS", "Redux Toolkit"],
-        imageUrl: MessPortalImg,
+        tags:["React.js", "Node.js", "MongoDb", "TailwindCSS", "Redux Toolkit"] as string[],
+        imageUrl: MessPortalImg as StaticImageData,
         link:'https://github.com/nickoo20/messPortal',
     },
     {
         title: 'Tweeter',
         description:'Developed "X", a Twitter-inspired app with React, Node.js, JWT authentication, and Cloudinary integration, boosting security, performance, and user engagement.',
-        tags: ['MERN Stack Development'],
-        imageUrl: TwitterImg,
+        tags: ['MERN Stack Development'] as string[],
+        imageUrl: TwitterImg as StaticImageData,
         link:'https://github.com/nickoo20/Twitter-prog',
     },
     {
         title: "NestNexus",
         description : "Boosted security with JWT, Firebase, Google OAuth; optimized data management with CRUD operations, image uploads; enhanced UX with advanced search and filters..",
-        tags:["React.js", "Node.js", "Express.js", "MongoDB", "Tailwind"],
-        imageUrl: NestNexusImg,
+        tags:["React.js", "Node.js", "Express.js", "MongoDB", "Tailwind"] as string[],
+        imageUrl: NestNexusImg as StaticImageData,
         link:'https://github.com/nickoo20/mern-estate'
     },
     {
         title: "Search-X",
         description : "Crafted a dynamic web application mirroring the intuitive design and functionality of Google search. Integrated seamlessly with the Google Custom Search API, enabling users to explore both text and image-based queries.",
-        tags:["React", "Tailwind"],
-        imageUrl: SearchXImg,
+        tags:["React", "Tailwind"] as string[],
+        imageUrl: SearchXImg as StaticImageData,
         link:'http://searchxx.netlify.app/'
     },
     {
         title: "ShopSavvy",
         description : "Crafted a dynamic web application mirroring the intuitive design and functionality of Google search. Integrated seamlessly with the Google Custom Search API, ",
-        tags:["React", "Tailwind"],
-        imageUrl: ShopSavvyImg,
+        tags:["React", "Tailwind"] as string[],
+        imageUrl: ShopSavvyImg as StaticImageData,
         link:'https://shopsavvy20.netlify.app'
     },
-    // {
-    //     title: "Search-X",
-    //     description : "Crafted a dynamic web application mirroring the intuitive design and functionality of Google search.",
-    //     tags:["React", "Tailwind"],
-    //     imageUrl: NikeImg,
-    // },
 ]as const ;
 
 export const skillsData=[

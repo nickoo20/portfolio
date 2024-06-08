@@ -1,20 +1,22 @@
 "use client";
 
-import Image from 'next/image';
+import Image, { StaticImageData } from 'next/image';
 import { useScroll, useTransform } from 'framer-motion';
 import { useRef } from 'react';
 import { projectsData } from '@/lib/data';
 import { motion } from 'framer-motion';
 import Link from 'next/link';
 
+// Define the ProjectProps type
 type ProjectProps = {
-  title: string;
-  description: string;
-  tags: string[];
-  imageUrl: string;
-  link?: string;
+    title: string;
+    description: string;
+    tags: string[];
+    imageUrl: StaticImageData,
+    link: string;
 };
 
+// Component definition
 export default function Project({ title, description, tags, imageUrl, link }: ProjectProps) {
     const ref = useRef<HTMLDivElement>(null);
     const { scrollYProgress } = useScroll({
