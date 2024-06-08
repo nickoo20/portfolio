@@ -72,7 +72,7 @@ export default function Project({ title, description, tags, imageUrl, link }: Pr
             <h3 className='text-2xl font-semibold'>{title}</h3>
             <p className='mt-2 leading-relaxed text-gray-700 dark:text-white/70'>{description}</p>
             <ul className='flex flex-wrap gap-2 mt-4 sm:mt-auto'>
-              {tags.map((tag, index) => (
+              {tags.map((tag:any, index) => (
                 <li
                   key={index}
                   className='bg-black/[0.7] px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full dark:text-white/70'
