@@ -45,7 +45,7 @@ export default function Intro() {
           >👋</motion.span>
         </div>
       </div>
-      <motion.h1 className='mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl'
+      <motion.h1 className='mb-10 mt-4 px-4 text-xl font-medium !leading-[1.5] sm:text-4xl'
         initial={{ opacity: 0, y: 100 }} animate={{ opacity: 1, y: 0 }}
       >
         {/* <ul className='flex text-sm justify-center items-center my-2 hover:translate-x-1 dark:text-white/80 '>
@@ -58,7 +58,7 @@ export default function Intro() {
         <h2><span>{typeEffect}</span></h2>
         </div> */}
 
-        <span className='font-bold'>Hello, I'm Niyati .</span>I'm a <span className='underline'>Full-stack Developer</span> . I enjoy building sites.'
+        <span className='font-medium'>I'm Niyati,</span> a Full-stack Developer creating efficient, user-friendly web applications."'
       </motion.h1>
       <motion.div className='flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium'
         initial={{ opacity: 0, y: 100 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.1 }}>

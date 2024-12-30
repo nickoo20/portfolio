@@ -16,7 +16,7 @@ export default function Education() {
         <div>
             <h4 className=''>National Institute Of Technology, Srinagar</h4>
             <div className='flex justify-between items-center'>
-            <p className='text-xs text-gray-500'>CGPA: 8/10</p>
+            <p className='text-xs text-gray-500'>CGPA: 8.1/10</p>
             <p className='text-xs text-gray-500'>2020-2024</p>
             </div>
         </div>

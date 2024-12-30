@@ -13,7 +13,7 @@ export default function About() {
     transition={{delay:0.175}}>
         <SectionHeading>About me</SectionHeading>
         <p className='mb-3'>
-        As a final-year <span className='font-medium'>Computer Science</span> student pursuing a <span className='font-medium italic underline'>B.Tech</span>, I'm currently looking for work as a software engineer or in full-stack development.  My favorite part of programming is solving problems, <span className='italic'>  which is why I love it so much. </span>  I take pleasure in solving issues . In addition to TypeScript and Next.js, my core stack consists of <span className='font-medium'> React, Node.js, and MongoDB</span>. I am presently <span className='italic'>looking for a full-time job as a software engineer</span>  because I am constantly excited to <span className='underline'>learn</span>  new technologies .
+        I'm Niyati, a passionate Full-stack Developer with expertise in Python, Django, React, and cloud technologies. I thrive on creating scalable, high-performance applications that enhance user experience and engagement. With a strong foundation in software development, I aim to build innovative solutions and continuously improve my technical skills.
         </p>
         <p>In addition to coding, I like to <span className='font-medium'>dance, play sports</span>, and strike up discussions with new people.</p>
         

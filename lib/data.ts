@@ -45,11 +45,12 @@ export const educationData=[
 ] as const ;
 export const experiencesData =[
     {
-        title: "FrontEnd Developer Intern",
-        location: "Remote",
-        description: "Worked in a team of 2  and implemented user interfaces, utilizing dynamic routing to enhance user navigation.  ",
+
+        title: "UrbanMatch | Software Developer",
+        location: "Hyderabad",
+        description: "Revamped UrbanMatch's backend, ensuring 99.9% uptime and seamless deployments. Boosted user engagement by 31% through real-time chat, subscription notifications, and enhanced search, delivering a reliable and efficient matchmaking experience.",
         icon: React.createElement(CgWorkAlt),
-        date:"Dec'22 to Feb'23" 
+        date:"Aug'24 to Present" 
     },
 ] as const ;
 
@@ -94,20 +95,6 @@ export const projectsData =[
 ]as const ;
 
 export const skillsData=[
-    "HTML",
-    "CSS",
-    "JavaScript",
-    "React",
-    "Next.js",
-    "Node.js",
-    "Express.js",
-    "MongoDB",
-    "SQL",
-    "Redux",
-    "Python",
-    "TypeScript",
-    "FastAPI",
-    "Framer Motion",
-    "Git",
+    "HTML", "CSS", "JavaScript", "TypeScript", "React"," Next.js"," Node.js","Express.js"," Redux","Java", "Python", "DjangoRestFramework", "FastAPI", "MongoDB", "SQL", "AWS", "Docker", "CI/CD", "Git", "Machine Learning","Framer Motion"
 ] as const ;
 
