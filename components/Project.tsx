@@ -10,7 +10,7 @@ import Link from 'next/link';
 // Define the ProjectProps type
 type ProjectProps = {
     title: string;
-    description: string;
+    description: string[];
     tags: string[];
     imageUrl: StaticImageData,
     link: string;
