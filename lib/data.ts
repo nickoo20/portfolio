@@ -90,7 +90,7 @@ export const experiencesData = [
       description:[
         "Secure student portal with role-based auth & two-factor verification for 500+ users.\n",
         "Automated complaint & leave management (72 hrs ➝ 2 hrs resolution).\n",
-        "Built billing system with 99% accuracy for 1,000+ accounts using RESTful APIs."],
+        "Built billing system with 99% accuracy for 1,000+ accounts using RESTful APIs."] as string[],
       tags: ["React.js", "Node.js", "MongoDb", "TailwindCSS", "Redux Toolkit"] as string[],
       imageUrl: MessPortalImg as StaticImageData,
       link: "https://github.com/nickoo20/messPortal",
@@ -100,7 +100,7 @@ export const experiencesData = [
       description:[
         "Property management platform with JWT, Firebase & Google OAuth for secure auth.\n" ,
         // "Boosted CRUD efficiency by 50% with optimized backend logic.\n" ,
-        "Enhanced property discovery via advanced filters & search algorithms."],
+        "Enhanced property discovery via advanced filters & search algorithms."] as string[],
       tags: ["React.js", "Node.js", "Express.js", "MongoDB", "Tailwind"] as string[],
       imageUrl: NestNexusImg as StaticImageData,
       link: "https://github.com/nickoo20/mern-estate",
@@ -110,7 +110,7 @@ export const experiencesData = [
       description:[
         "Full-stack social platform inspired by Twitter (X) using MERN stack.\n",
         "Secured user sessions with JWT auth; optimized data fetching with React Query.\n",
-        "Integrated Cloudinary for real-time image uploads & notifications."],
+        "Integrated Cloudinary for real-time image uploads & notifications."] as string[],
       tags: ["MERN Stack Development", "Cloudinary"] as string[],
       imageUrl: TwitterImg as StaticImageData,
       link: "https://github.com/nickoo20/Twitter-prog",
@@ -119,7 +119,7 @@ export const experiencesData = [
       title: "Search-X",
       description:[
         "Google-style search app with seamless text & image query experience.\n", 
-        "Integrated Google Custom Search API with sleek UI and responsive design."],
+        "Integrated Google Custom Search API with sleek UI and responsive design."] as string[],
       tags: ["React", "Tailwind", "Google API", "responsive design"] as string[],
       imageUrl: SearchXImg as StaticImageData,
       link: "http://searchxx.netlify.app/",
@@ -128,7 +128,7 @@ export const experiencesData = [
       title: "ShopSavvy",
       description:[
         "Product discovery platform with intuitive UI inspired by Google search.\n",
-        "Integrated real-time search and filtering with a focus on user experience."],
+        "Integrated real-time search and filtering with a focus on user experience."] as string[],
       tags: ["React", "Tailwind", "JSON_API", "UI/UX"] as string[],
       imageUrl: ShopSavvyImg as StaticImageData,
       link: "https://shopsavvy20.netlify.app",
