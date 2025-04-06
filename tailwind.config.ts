@@ -15,6 +15,11 @@ const config: Config = {
       },
       fontFamily:{
         roboto:["Roboto Mono", 'monospace'],
+        inter:["Inter", 'sans-serif'],
+        grostesk:["Space Grostesk", 'sans-serif'],
+        poppins:["Poppins", 'sans-serif'],
+        mulish:["Mulish", 'sans-serif'],
+        sora:["Sora", 'sans-serif']
       }
     },
   },

@@ -39,8 +39,17 @@ export default function Project({ title, description, tags, imageUrl, link }: Pr
                 {link ? (
                     <Link href={link} target='_blank'>
                         <div className='flex flex-col pt-4 pb-7 px-5 sm:pl-10 sm:pr-2 sm:pt-10 sm:max-w-[50%] h-full sm:group-even:ml-[18rem]'>
-                            <h3 className='text-2xl font-semibold'>{title}</h3>
-                            <p className='mt-2 leading-relaxed text-gray-700 dark:text-white/70'>{description}</p>
+                            <h3 className='text-md font-semibold'>{title}</h3>
+                            {/* <p className='mt-2 leading-relaxed text-gray-700 dark:text-white/70'>{description}</p> */}
+                            {Array.isArray(description) ? (
+                            <ul className="list-disc ml-5 text-sm text-gray-700 dark:text-white/70">
+                                {description.map((point, idx) => (
+                                <li key={idx} className="mb-1">{point}</li>
+                                ))}
+                            </ul>
+                            ) : (
+                            <p className="mt-2 leading-relaxed text-gray-700 dark:text-white/70">{description}</p>
+                            )}
                             <ul className='flex flex-wrap gap-2 mt-4 sm:mt-auto'>
                                 {tags.map((tag, index) => (
                                     <li

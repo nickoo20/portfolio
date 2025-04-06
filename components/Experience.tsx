@@ -44,11 +44,18 @@ export default function Experience() {
                 fontSize: "1.5rem",
               }}
             >
-              <h3 className="font-semibold capitalize">{item.title}</h3>
-              <p className="font-normal !mt-0">{item.location}</p>
-              <p className="!mt-1 !font-normal text-gray-700 dark:text-white/75">
-                {item.description}
-              </p>
+              <h3 className="font-semibold text-xl capitalize font-mulish">{item.title}</h3>
+              <div className="flex justify-between items-center my-1 font-inter">
+                <h4 className="font-medium text-md capitalize">{item.designation}</h4>
+                <h4 className="font-normal !mt-0 text-md">{item.location}</h4>
+              </div>
+              <ul className="!mt-1 !font-normal text-gray-700 dark:text-white/75 font-mulish">
+                {item.description.map((desc, index) => (
+                  <li key={index} className="list-disc my-2 list-inside">
+                    {desc}
+                  </li>
+                ))}
+              </ul>
             </VerticalTimelineElement>
           </React.Fragment>
         ))}
