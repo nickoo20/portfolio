@@ -8,6 +8,7 @@ import Footer from "@/components/Footer";
 import ThemeSwitch from "@/components/theme-switch";
 import ThemeContextProvider from "@/context/theme-context";
 import CustomCursor from "@/components/CustomCursor";
+import { Analytics } from "@vercel/analytics/react"
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -29,6 +30,7 @@ export default function RootLayout({
         <ThemeContextProvider>
           <ActiveSectionContextProvider>
             <CustomCursor/>
+            <Analytics />
             <Header/>
             {children}
             <Toaster position="top-right"/>
